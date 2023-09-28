@@ -15,16 +15,19 @@ header{
 .zoom-button{
     color: white;
     justify-content: flex-end;
-    padding: 10px;
 }
 
 .speaker-view{
     background-color: gray;
     margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .fa-maximize{
     background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 
@@ -56,6 +59,7 @@ main > .container{
     background-color: rgba(128, 128, 128, 0.781);
     color: white;
     padding: 5px;
+    border-radius: 5px;
 }
 
 
