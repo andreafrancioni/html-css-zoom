@@ -30,6 +30,12 @@ header{
 
 /* Main CSS */
 
+main{
+    height: calc(100vh - 70px - 50px);
+    overflow-y: auto;
+    padding: 20px;
+}
+
 main > .container{
     flex-wrap: wrap;
 }
