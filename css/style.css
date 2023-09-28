@@ -1,17 +1,46 @@
+/* Reset CSS */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* Header CSS */
 header{
     height: 50px;
+    width: 100%;
 }
 
 .zoom-button{
     color: white;
 }
 
+
+/* Main CSS */
+
+main > .container{
+    flex-wrap: wrap;
+}
+
+.webcam{
+    padding-right: 5px;
+    width: calc(100% / 7);
+    position: relative;
+}
+
+.webcam .username{
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(128, 128, 128, 0.781);
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+/* Footer CSS */
 footer{
     height: 70px;
 }
