@@ -46,6 +46,10 @@ main > .container{
     position: relative;
 }
 
+.webcam > img{
+    width: 100%;
+}
+
 .webcam .username{
     position: absolute;
     bottom: 5px;
