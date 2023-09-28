@@ -14,6 +14,17 @@ header{
 
 .zoom-button{
     color: white;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.speaker-view{
+    background-color: gray;
+    margin-right: 10px;
+}
+
+.fa-maximize{
+    background-color: gray;
 }
 
 
@@ -43,4 +54,25 @@ main > .container{
 /* Footer CSS */
 footer{
     height: 70px;
+    color: white;
+    font-size: 25px;
+}
+
+.fa-angle-up{
+    font-size: 10px;
+}
+
+.fa-share-from-square{
+    color: greenyellow;
+}
+
+.footer-right{
+    background-color: gray;
+    padding: 20px;
+}
+.footer-right a{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+
 }
